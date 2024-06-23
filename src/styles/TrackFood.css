@@ -1,0 +1,64 @@
+.track-food-container {
+  margin-top: 160px; 
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.track-food-container h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.food-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.food-card {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+.food-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.food-card h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.progress-bar {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.progress-bar .progress {
+  height: 20px;
+  background-color: #4caf50;
+  transition: width 1s ease-in-out;
+}
+
+.food-card p {
+  font-size: 1em;
+  margin: 0;
+}

@@ -1,0 +1,40 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden; 
+}
+
+
+.home-container {
+  margin-top: 1150px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  min-height: 100vh; 
+  box-sizing: border-box; }
+
+
+.chart-container {
+  margin: 20px 0;
+  padding: 20px;
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.chart-image {
+  background: rgba(0, 0, 0, 0.8);
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+}
+
+
+.main-content {
+  padding-top: 80px; /* Adjust according to the navbar height */
+}

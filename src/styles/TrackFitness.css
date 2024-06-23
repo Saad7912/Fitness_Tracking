@@ -1,0 +1,103 @@
+.track-fitness-container {
+    position: sticky;
+    margin-top: 640px; 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color:rgba(0, 0, 0, 0.8); */
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  .track-fitness-container h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    
+    color: white;
+  }
+  
+  .workout-log {
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .workout-log h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+   
+    color: white;
+  }
+  
+  .workout-log input {
+    margin: 5px;
+    padding: 10px;
+    width: calc(25% - 20px);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .center-button {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .workout-log button {
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .workout-log button:hover {
+    background-color: green;
+  }
+  
+  .workout-list {
+    margin-top: 10px;
+  }
+  
+  .workout-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .progress-charts,
+  .goals-summary {
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .progress-charts h2,
+  .goals-summary h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    
+    color: white;
+  }
+  
+  .goals-summary p {
+    font-size: 1em;
+   
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+  }
+  
